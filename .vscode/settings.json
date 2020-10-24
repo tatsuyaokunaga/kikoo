@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/Users/t.okunaga/.pyenv/shims/python",
+    "emmet.includeLanguages": {"django-html": "html"} 
+}
