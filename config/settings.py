@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'tweet',
     'user',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [
@@ -121,4 +122,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = BASE_DIR / "static"
+STATICFILES_DIRS = [BASE_DIR / 'static']
+# STATIC_URL = BASE_DIR / 'static'
